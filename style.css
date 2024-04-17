@@ -1,0 +1,115 @@
+body{
+    text-align: center;
+    background-color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+section{
+    min-height:100vh;
+}
+hr{
+    border: dotted #FC5936 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+h1{
+    font-size: 50px;
+    color:#FC5936;
+
+}
+h2{
+    font-size:30px;
+    color:#FC5936;
+
+}
+.left-cloud{
+    display:flex;
+    justify-content: flex-end;
+
+}
+.left-cloud img{
+    height:100px;
+    margin-right:300px;
+    
+}
+
+.right-cloud{
+    display:flex;
+    justify-content: flex-start;
+}
+.right-cloud img{
+    height:100px;
+    margin-left: 300px;
+    
+}
+
+.boat img{
+    height:300px;
+}
+.profile img{
+    height:100px;
+
+}
+.profile{
+    margin-top: 100px;
+}
+.profile h2{
+    color:black;
+    font-size:20px;
+
+}
+.raid-image img{
+    height: 200px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+
+}
+@media (max-width: 576px){
+    .grid-container{
+        display:flex;
+        flex-direction: column;
+    }
+}
+.get-in-touch{
+    margin-top: 100px;
+}
+.btn{
+    border-radius: 25px;
+    padding: 15px 32px;
+    text-align: center;
+    border:none;
+    background-color:#FC5936;
+    color:white;
+    cursor:pointer;
+    
+}
+.btn:hover{
+    background-color: #DA5033;
+    color:white;
+}
+.get-in-touch h2{
+    color:#FC5936;
+}
+.footer{
+    margin-top: 50px;
+    min-height:20vh;
+
+}
+.links{
+    display:flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 50px
+}
+.links a{
+    cursor:pointer;
+    font-weight: bold;
+    color:#DA5033
+}
